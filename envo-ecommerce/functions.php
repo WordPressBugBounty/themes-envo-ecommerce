@@ -383,13 +383,13 @@ if (!function_exists('envo_ecommerce_entry_footer')) :
 
 endif;
 
-if (!function_exists('envo_ecommerce_generate_construct_footer')) :
+if (!function_exists('envo_ecommerce_copyright_construct_footer')) :
     /**
      * Build footer
      */
-    add_action('envo_ecommerce_generate_footer', 'envo_ecommerce_generate_construct_footer');
+    add_action('envo_ecommerce_copyright_footer', 'envo_ecommerce_copyright_construct_footer');
 
-    function envo_ecommerce_generate_construct_footer() {
+    function envo_ecommerce_copyright_construct_footer() {
         ?>
         <div class="footer-credits-text text-center">
             <?php
